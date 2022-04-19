@@ -10,5 +10,5 @@ COPY --from=maven /usr/src/app/target/example.smallest-0.0.1-SNAPSHOT.war /usr/l
 #COPY example.smallest-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/
 #COPY sample.war /usr/local/tomcat/webapps/
 #COPY mkyong.war /usr/local/tomcat/webapps/
-EXPOSE 8080
+EXPOSE 8081
 CMD ["catalina.sh", "run"]
