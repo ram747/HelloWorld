@@ -1,6 +1,6 @@
 FROM maven:3.6.3 as maven
 WORKDIR /usr/src/app/
-COPY Hello-world /usr/src/app/
+COPY . /usr/src/app/
 RUN mvn clean install
 #RUN mvn package
 
